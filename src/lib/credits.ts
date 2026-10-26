@@ -1,0 +1,51 @@
+export const CREDITS = [
+  {
+    file: "/images/latte-pour.jpg",
+    license: "CC0",
+    artist: "Kim Sanso",
+    page: "https://commons.wikimedia.org/wiki/File:Latte_art_3.jpg",
+    title: "File:Latte art 3.jpg",
+  },
+  {
+    file: "/images/pistachio-croissant.jpg",
+    license: "CC0",
+    artist: "Andy Li",
+    page: "https://commons.wikimedia.org/wiki/File:Pistachio-filled_Croissant_-_Milfey_Patisserie_2026-05-30.jpg",
+    title: "File:Pistachio-filled Croissant - Milfey Patisserie 2026-05-30.jpg",
+  },
+  {
+    file: "/images/swirl-pastry.jpg",
+    license: "CC0",
+    artist: "Andy Li",
+    page: "https://commons.wikimedia.org/wiki/File:Cinnamon_bun_-_Milfey_Patisserie_2026-08-31.jpg",
+    title: "File:Cinnamon bun - Milfey Patisserie 2026-08-31.jpg",
+  },
+  {
+    file: "/images/cake-slice.jpg",
+    license: "CC0",
+    artist: "Andy Li",
+    page: "https://commons.wikimedia.org/wiki/File:Lemon_raspberry_rose_cake_-_Cafe_Coho_2025-08-18.jpg",
+    title: "File:Lemon raspberry rose cake - Cafe Coho 2025-08-18.jpg",
+  },
+  {
+    file: "/images/pour-over.jpg",
+    license: "CC0",
+    artist: "Kim Sanso",
+    page: "https://commons.wikimedia.org/wiki/File:Manual_drip_(pour-over)_coffee.jpg",
+    title: "File:Manual drip (pour-over) coffee.jpg",
+  },
+  {
+    file: "/images/interior.jpg",
+    license: "CC0",
+    artist: "Andy Li",
+    page: "https://commons.wikimedia.org/wiki/File:Interior_of_Bloom_Cafe,_Holy_Trinity_Brompton_2026-09-03.jpg",
+    title: "File:Interior of Bloom Cafe, Holy Trinity Brompton 2026-09-03.jpg",
+  },
+  {
+    file: "/images/beans.jpg",
+    license: "CC0",
+    artist: "Roger Burger",
+    page: "https://commons.wikimedia.org/wiki/File:Roasted_arabica_coffee_beans_Minca.jpg",
+    title: "File:Roasted arabica coffee beans Minca.jpg",
+  },
+] as const;
