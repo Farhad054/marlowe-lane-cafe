@@ -10,7 +10,8 @@ export function Hero() {
         src="/images/latte-pour.jpg"
         alt="Milk being poured into a cup of coffee to make latte art"
         fill
-        priority
+        preload
+        fetchPriority="high"
         sizes="100vw"
         className="-z-20 object-cover"
       />
