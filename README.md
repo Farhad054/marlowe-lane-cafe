@@ -41,19 +41,3 @@ npm run dev                  # http://localhost:3000
 | `sh scripts/lighthouse.sh`           | Lighthouse mobile on every page (needs `npm run start -- -p 3417`) |
 | `node scripts/screenshots.mjs <dir>` | Full-page screenshots at 390px and 1440px                          |
 
-## Deployment
-
-1. Push this repo to GitHub.
-2. In Vercel: **Add New → Project →** import the repo. Framework preset is auto-detected (Next.js); no build settings needed.
-3. Environment variables (all optional): `NEXT_PUBLIC_SITE_URL` (the production URL), `RESEND_API_KEY`, `CONTACT_TO_EMAIL`, `CONTACT_FROM_EMAIL`.
-4. Deploy. Every push to `main` redeploys.
-
-CLI alternative: `npx vercel login && npx vercel --prod`.
-
-## Quality results
-
-See [`RESULTS.md`](./RESULTS.md) for measured Lighthouse, axe and test numbers.
-
-## Credits
-
-All photos are CC0 (Wikimedia Commons), downloaded into `public/images/`, not hotlinked. Full list and licenses in [`CREDITS.md`](./CREDITS.md).
