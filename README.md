@@ -4,7 +4,7 @@
 
 A polished, mobile-first marketing site for a small neighbourhood café: hero with a clear call to action, menu, hours, gallery, location map, FAQ and a booking-inquiry form.
 
-**Live:** _pending first deploy_ (see [Deployment](#deployment))
+**Live:** https://marlowe-lane-cafe.vercel.app
 
 ## Stack
 
